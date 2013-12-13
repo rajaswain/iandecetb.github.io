@@ -1,0 +1,276 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+@import url(http://fonts.googleapis.com/css?family=kavoon);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+
+
+* {
+  font-family: "Inconsolata";
+}
+body {
+        background: #222222;
+        color: #fff;
+        font-size: 100%;
+      }
+.homepage-content-div{
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 200px;
+}
+.homepage-content{
+		font-family: "";
+		font-size: 6em;
+    	font-weight: bold;
+    	color: #E8491E;
+    	text-shadow: 0 0 10px #3773BE;
+}
+.span8 h2 {
+	color: #BC212C;
+}
+.btn{
+    margin: 20px;
+  }
+
+@media only screen and (max-height: 600px) {
+    .homepage-content-div{
+      margin-top: 100px;
+      margin-bottom: 150px;
+    }  
+  }
+  @media only screen and (max-height: 400px) {
+    .homepage-content-div{
+      margin-top: 70px;
+      margin-bottom: 100px;
+    }  
+  }
+#college{
+		font-family: "Inconsolata";
+    	padding: 20px 20px;
+}
+#homepage-links-div{
+		padding-top: 30px;
+		padding-bottom: 20;
+		padding-left: 20;
+		padding-right: 50;
+
+}
+.homepage-link{
+		font-size: 1.6em;
+    	font-weight: bold;
+    	color: #FFD249;
+    	padding: 0 20;
+    	padding-right: 20;
+    	text-decoration: underline;
+}
+ @media only screen and (max-width: 400px) {
+    body { font-size:60%;}
+    .homepage-link{
+      padding: 0 10px;
+    }
+  }
+ .menu_container {
+ 	display: table-cell;
+ 	font-size: 12px;
+ 	font-weight: bolder;
+ 	position: relative;
+ 	text-shadow: 1px 1px 1px #333333;
+ 	vertical-align: middle;
+
+ }
+ .menu_container {
+ 	padding: 100px;
+ 	position:relative;
+    width:484px;
+    height: relative; /*make it relative if you want to make the header responsive */
+    top: 0px;
+    float:left;
+ }
+ .menu_container .menu_text {
+ 	display: table-cell;
+ 	font-size: 15px;
+ 	font-weight: bolder;
+ 	position: relative;
+ 	text-shadow: 1px 1px 1px #333333;
+ 	vertical-align: middle;
+ }
+ .menu_button {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(122,152,171); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(122,152,171,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_hover a:hover {
+	background: rgba(0,0,0,0);
+}
+
+.menu_button2 {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button3 {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button4 {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(247,215,176); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(247,215,176,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button5 {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family:"Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(247,215,176); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(247,215,176,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button6 {
+    position:relative;
+    width: 240px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(236,237,231); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(236,237,231,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=72)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	
+	
+}
+
+
+.menu_button7 {
+    position:relative;
+    width: 120px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(236,237,231); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(236,237,231,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	
+
+}
+
+.menu_button8 {
+    position:relative;
+    width: 120px;
+    height: 77px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button9 {
+    position:relative;
+    width: 120px;
+    height: 78px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(176,220,247); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(176,220,247,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);	}
+
+.menu_button10 {
+    position:relative;
+    width: 120px;
+    height: 78px;
+    float:left;
+    margin: 0 1px 1px 0;
+    text-decoration:none;
+    color: #fff;
+    font-family: "Inconsolata";
+    text-align:center;
+	display:table;
+	background: rgb(122,152,171); /* this is the FALLBACK for old versions of IE: 6,7,8 */
+	background: rgba(122,152,171,0.75);
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /* this is needed for transparency in old versions of IE: 6,7,8 */
+	filter: alpha(opacity=75);
+}
